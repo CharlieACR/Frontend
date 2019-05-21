@@ -1,0 +1,58 @@
+
+body
+{
+    background-color: aliceblue;
+}
+
+h2
+{
+    color: red;
+    padding-top: 20px;
+}
+
+nav
+{
+    border: black 1px solid;
+    background-color: blue;
+}
+section
+{
+    background-color: aliceblue;
+    border: black 1px solid;
+}
+
+
+header
+{
+    background-color: aqua;
+}
+
+#logo
+{
+    width: 100px;
+    height: 100px;
+}
+
+#navegacion ul
+{
+    height: 10px;
+}
+
+#navegacion li
+{
+    list-style: none;
+    display: inline;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+#noticias li
+{
+    list-style: none;
+    padding: 10px;
+}
+
+.row p
+{
+    border: black 1px solid;
+}

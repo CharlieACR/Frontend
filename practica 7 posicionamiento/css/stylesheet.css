@@ -1,0 +1,20 @@
+body {
+    background: white url("../images/Montain.jpg") no-repeat top right;
+    background-size: auto;
+}
+
+li
+{
+    display: inline;
+    list-style: none;
+}
+
+#navigation
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    background-color: aqua;
+
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/stylesheets.css">
+</head>
+<body>
+    <h2>Alta de alumnos</h2>
+    <form action="destino.html" method="post">
+            <p>
+                <label for="txt_idAlumno">Id Alumno:</label>
+                <input type="text" id="txt_idAlumno" name="txt_idAlumno" 
+                placeholder="Numero de cuenta del alumno" required autofocus>
+            </p>
+            <p>
+                <label for="txt_nombreAlumno">Nombre Alumno:</label>
+                <input type="text" id="txt_nombreAlumno" name="txt_nombreAlumno" 
+                placeholder="Nombre del acta de nacimiento" required>
+            </p>
+            <p>
+                <label for="tel_nombreAlumno">tel:</label>
+                <input type="tel" id="tel_nombreAlumno" name="tel_nombreAlumno" 
+                placeholder="tel" required>
+            </p>
+            <p>
+                <label for="search_nombreAlumno">search:</label>
+                <input type="search" id="search_nombreAlumno" name="search_nombreAlumno" 
+                placeholder="search" required>
+            </p>
+            <p>
+                <label for="url_nombreAlumno">url:</label>
+                <input type="url" id="url_nombreAlumno" name="url_nombreAlumno" 
+                placeholder="url" required>
+            </p>
+            <p>
+                <label for="email_nombreAlumno">email:</label>
+                <input type="email" id="email_nombreAlumno" name="email_nombreAlumno" 
+                placeholder="email" required>
+            </p>
+            <p>
+                <label for="datetime_nombreAlumno">datetime:</label>
+                <input type="datetime" id="datetime_nombreAlumno" name="datetime_nombreAlumno" 
+                placeholder="datetime" required>
+            </p>
+            <p>
+                <label for="date_nombreAlumno">date:</label>
+                <input type="date" id="date_nombreAlumno" name="date_nombreAlumno" 
+                placeholder="date" required>
+            </p>
+            <p>
+                <label for="month_nombreAlumno">month:</label>
+                <input type="month" id="month_nombreAlumno" name="month_nombreAlumno" 
+                placeholder="month" required>
+            </p>
+            <p>
+                <label for="week_nombreAlumno">week:</label>
+                <input type="week" id="week_nombreAlumno" name="week_nombreAlumno" 
+                placeholder="week" required>
+            </p>
+            <p>
+                <label for="time_nombreAlumno">time:</label>
+                <input type="time" id="time_nombreAlumno" name="time_nombreAlumno" 
+                placeholder="time" required>
+            </p>
+            <p>
+                <label for="datetimLocale_nombreAlumno">datetime-local:</label>
+                <input type="datetime-local" id="datetimLocale_nombreAlumno" name="datetimLocale_nombreAlumno" 
+                placeholder="datetime-local" required>
+            </p>
+            <p>
+                <label for="number_nombreAlumno">number:</label>
+                <input type="number" id="number_nombreAlumno" name="number_nombreAlumno" 
+                placeholder="number" required>
+            </p>
+            <p>
+                <label for="range_nombreAlumno">range:</label>
+                <input type="range" id="range_nombreAlumno" name="range_nombreAlumno" 
+                placeholder="range" required>
+            </p>
+            <p>
+                <label for="color_nombreAlumno">color:</label>
+                <input type="color" id="color_nombreAlumno" name="color_nombreAlumno" 
+                placeholder="color" required>
+            </p>
+            <p>
+                <datalist id="paises">
+                    <option value="suiza" label="Pais 1">
+                    <option value="italia" label="Pais 2">
+                </datalist>
+                <input type="text" name="id_pais" id="id_pais" list="paises">
+            </p>
+            <p>
+                <label for="id_male">Hombre</label>
+                <input type="radio" name="id_genere" id="id_male" required >
+                <label for="id_female">Mujer</label>
+                <input type="radio" name="id_genere" id="id_female">
+            </p>
+        <p>
+            <input type="submit" values="Da click!!">
+        </p>
+        
+
+    </form>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

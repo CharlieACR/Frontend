@@ -1,0 +1,24 @@
+h2
+{
+    color: blue;
+}
+
+.impar
+{
+    background-color: aquamarine;
+}
+
+.par
+{
+    background-color: bisque;
+}
+
+p
+{
+    text-align: justify;
+}
+
+#parrafo1, #parrafo2
+{
+    text-align: center;
+}

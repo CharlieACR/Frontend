@@ -1,0 +1,47 @@
+h2
+{
+    color: blue;
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+}
+
+body
+{
+    border: yellowgreen 20px solid;
+    border-bottom-width: 30px;
+}
+
+p
+{
+    border: blue 20px solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+div
+{
+    border: rgb(15, 100, 197) 20px solid;
+    padding: 20px;
+    margin: 20px;
+}
+
+body>p
+{
+    color: red ;
+}
+
+div
+{
+    color: blue;
+}
+
+p#p3
+{
+    color: yellow;
+}
+
+#div p
+{
+    color: violet;
+}
